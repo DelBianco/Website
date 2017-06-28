@@ -1,0 +1,1025 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+.text-primary {
+  color: #232c4b !important;
+}
+p {
+  line-height: 1.75;
+}
+a {
+  color: #232c4b;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #131828;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary {
+  color: white;
+  background-color: #232c4b;
+  border-color: #232c4b;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:focus,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #131828;
+  border-color: #101421;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #232c4b;
+  border-color: #232c4b;
+}
+.btn-primary .badge {
+  color: #232c4b;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #232c4b;
+  border-color: #232c4b;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.btn-xl:active:focus,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #131828;
+  border-color: #101421;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #232c4b;
+  border-color: #232c4b;
+}
+.btn-xl .badge {
+  color: #232c4b;
+  background-color: white;
+}
+.btn-xl-green {
+  color: white;
+  background-color: #2ba543;
+  border-color: #2ba543;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl-green:hover,
+.btn-xl-green:focus,
+.btn-xl-green:active,
+.btn-xl-green.active,
+.btn-xl-green:active:focus,
+.open .dropdown-toggle.btn-xl-green {
+  color: white;
+  background-color: #207d33;
+  border-color: #1e742f;
+}
+.btn-xl-green:active,
+.btn-xl-green.active,
+.open .dropdown-toggle.btn-xl-green {
+  background-image: none;
+}
+.btn-xl-green.disabled,
+.btn-xl-green[disabled],
+fieldset[disabled] .btn-xl-green,
+.btn-xl-green.disabled:hover,
+.btn-xl-green[disabled]:hover,
+fieldset[disabled] .btn-xl-green:hover,
+.btn-xl-green.disabled:focus,
+.btn-xl-green[disabled]:focus,
+fieldset[disabled] .btn-xl-green:focus,
+.btn-xl-green.disabled:active,
+.btn-xl-green[disabled]:active,
+fieldset[disabled] .btn-xl-green:active,
+.btn-xl-green.disabled.active,
+.btn-xl-green[disabled].active,
+fieldset[disabled] .btn-xl-green.active {
+  background-color: #2ba543;
+  border-color: #2ba543;
+}
+.btn-xl-green .badge {
+  color: #2ba543;
+  background-color: white;
+}
+.btn-xl-red {
+  color: white;
+  background-color: #6e0f10;
+  border-color: #6e0f10;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl-red:hover,
+.btn-xl-red:focus,
+.btn-xl-red:active,
+.btn-xl-red.active,
+.btn-xl-red:active:focus,
+.open .dropdown-toggle.btn-xl-red {
+  color: white;
+  background-color: #410909;
+  border-color: #380808;
+}
+.btn-xl-red:active,
+.btn-xl-red.active,
+.open .dropdown-toggle.btn-xl-red {
+  background-image: none;
+}
+.btn-xl-red.disabled,
+.btn-xl-red[disabled],
+fieldset[disabled] .btn-xl-red,
+.btn-xl-red.disabled:hover,
+.btn-xl-red[disabled]:hover,
+fieldset[disabled] .btn-xl-red:hover,
+.btn-xl-red.disabled:focus,
+.btn-xl-red[disabled]:focus,
+fieldset[disabled] .btn-xl-red:focus,
+.btn-xl-red.disabled:active,
+.btn-xl-red[disabled]:active,
+fieldset[disabled] .btn-xl-red:active,
+.btn-xl-red.disabled.active,
+.btn-xl-red[disabled].active,
+fieldset[disabled] .btn-xl-red.active {
+  background-color: #6e0f10;
+  border-color: #6e0f10;
+}
+.btn-xl-red .badge {
+  color: #6e0f10;
+  background-color: white;
+}
+.btn-xl-yellow {
+  color: white;
+  background-color: #D6A448;
+  border-color: #D6A448;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl-yellow:hover,
+.btn-xl-yellow:focus,
+.btn-xl-yellow:active,
+.btn-xl-yellow.active,
+.btn-xl-yellow:active:focus,
+.open .dropdown-toggle.btn-xl-yellow {
+  color: white;
+  background-color: #c08c2b;
+  border-color: #b88529;
+}
+.btn-xl-yellow:active,
+.btn-xl-yellow.active,
+.open .dropdown-toggle.btn-xl-yellow {
+  background-image: none;
+}
+.btn-xl-yellow.disabled,
+.btn-xl-yellow[disabled],
+fieldset[disabled] .btn-xl-yellow,
+.btn-xl-yellow.disabled:hover,
+.btn-xl-yellow[disabled]:hover,
+fieldset[disabled] .btn-xl-yellow:hover,
+.btn-xl-yellow.disabled:focus,
+.btn-xl-yellow[disabled]:focus,
+fieldset[disabled] .btn-xl-yellow:focus,
+.btn-xl-yellow.disabled:active,
+.btn-xl-yellow[disabled]:active,
+fieldset[disabled] .btn-xl-yellow:active,
+.btn-xl-yellow.disabled.active,
+.btn-xl-yellow[disabled].active,
+fieldset[disabled] .btn-xl-yellow.active {
+  background-color: #D6A448;
+  border-color: #D6A448;
+}
+.btn-xl-yellow .badge {
+  color: #D6A448;
+  background-color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: none;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #aaa;
+}
+.navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+#mainNav {
+  background-color: #232c4b;
+  min-height: 50px;
+  border: none;
+}
+#mainNav .navbar-toggler {
+  border: 0;
+  color: white;
+  background-color: #232c4b;
+  font-size: 12px;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  padding: 13px;
+  right: 0;
+}
+#mainNav .container {
+  padding: 0;
+}
+#mainNav .container .navbar-brand {
+  color: #FFF;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#mainNav .container .navbar-brand:hover,
+#mainNav .container .navbar-brand:focus,
+#mainNav .container .navbar-brand:active,
+#mainNav .container .navbar-brand.active {
+  color: #131828;
+}
+#mainNav .container .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  padding: 0.75em 0;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+#mainNav .container .navbar-nav .nav-item .nav-link:hover,
+#mainNav .container .navbar-nav .nav-item .nav-link.active {
+  color: #232c4b;
+}
+@media (min-width: 992px) {
+  #mainNav {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #1F2633;
+    background-repeat: repeat-x;
+    padding: 0;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    padding: 12px 0;
+    font-size: 1.25em;
+  }
+  header {
+    height: 100vh;
+  }
+}
+header {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header {
+    height: auto;
+  }
+  header .intro-text {
+    padding-top: 320px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+section {
+  padding: 70px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 80px 0;
+  }
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  padding: 30px;
+  font-size: 1em;
+  text-align: justify;
+  top: 5%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+#portfolio .portfolio-item .portfolio-link img {
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+#portfolio .portfolio-item:nth-child(even) .portfolio-link .portfolio-hover {
+  background: rgba(35, 44, 75, 0.9);
+}
+#portfolio .portfolio-item:nth-child(odd) .portfolio-link .portfolio-hover {
+  background: rgba(214, 164, 72, 0.9);
+}
+.plus-center .portfolio-hover-content > .plus {
+  margin-top: 45%;
+  text-align: center;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #f1f1f1;
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #232c4b;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+aside.clients img {
+  margin: 50px auto;
+}
+section#contact {
+  background-color: #D6A448;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  font-size: 90%;
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #888888;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #232c4b;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #888888;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #888888;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #D6A448;
+}
+::selection {
+  text-shadow: none;
+  background: #D6A448;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #D6A448;
+}
+.header-logo {
+  top: 20vh;
+  height: 80vh;
+  position: relative;
+  padding: 20px;
+}
+.logo-contato {
+  width: 100%;
+}
+.logo-specialita {
+  max-height: 120px;
+}
+.bg-darkest-gray {
+  background-color: #dddddd;
+}
+.bg-light-gray {
+  background-color: #ffffff;
+}
+#hospedagem {
+  padding-bottom: 0px;
+}
+.brand {
+  max-height: 30px;
+}
+.text-green {
+  color: #2ba543;
+}
+.text-red {
+  color: #6e0f10;
+}
+.text-blue {
+  color: #232c4b;
+}
+.counter {
+  color: #232c4b;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+}
+.cearo {
+  min-height: 80vh;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.img-sponsor-sm {
+  height: 80px;
+}
+.text-header {
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.small-counter {
+  font-size: small;
+}
+p {
+  text-indent: 30px;
+}
+.sign {
+  max-height: 45px;
+}
+.img-people {
+  border-radius: 0px;
+}
+.bg-video {
+  background-color: #000000;
+}
+.news-header {
+  color: #0a3e1b;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.brand-logo {
+  max-height: 90px;
+}
+.main-logo-shrink {
+  max-height: 45px;
+}
+.video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.main {
+  position: absolute;
+  top: 100vh;
+  background-color: #fff;
+  padding: 0px;
+}
+.prog-img {
+  padding: 0px;
+}
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+.img-full {
+  width: 100%;
+  height: auto;
+}
+.bg-local {
+  /* The image used */
+  background-image: url("http://www.cearo2017.com.br/assets/img/portoVelhoMap2.png");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+}
+.bg-inscricoes {
+  /* The image used */
+  background-image: url("http://www.cearo2017.com.br/assets/img/bgInscricoes.png");
+  /* Create the parallax scrolling effect */
+  min-height: 300px;
+  margin-top: 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+}
+.bg-feira {
+  background-image: url("http://www.cearo2017.com.br/assets/img/bgFeira.png");
+  /* Create the parallax scrolling effect */
+  min-height: 300px;
+  margin-top: 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #232c4b;
+  font-size: large;
+  font-weight: bold;
+}
+.bg-contact {
+  background-image: url("http://www.cearo2017.com.br/assets/img/bgContact.png?1=1");
+  /* Create the parallax scrolling effect */
+  min-height: 300px;
+  margin-top: 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #232c4b;
+  font-size: large;
+  font-weight: bold;
+}
+.nobr {
+  white-space: nowrap;
+}
+#inscricoes table {
+  font-size: 1.5em;
+}
+.min-height > .col-md-4 {
+  min-height: 300px;
+}
+textarea.form-control {
+  min-height: 130px;
+}
+.alert-success {
+  color: #ffffff;
+  background-color: #232c4b;
+  border-color: #1F2633;
+}
+.panel-cearo {
+  background-color: #232c4b;
+}
+.panel-cearo > a,
+.panel-cearo a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.panel-cearo > a .panel-title,
+.panel-cearo a:hover .panel-title {
+  padding: 20px 1px;
+}
+.list-group-cearo .list-group-item {
+  background-color: #1F2633;
+  color: #fff;
+}
+.text-secondary {
+  color: #D6A448;
+}
+#patrocinadores .img-responsive {
+  max-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,46 @@
+{
+  "Terça-Feira 6 de Junho": [
+    {
+      "titulo": "###",
+      "inicio": "09:00",
+      "final": "18:00",
+      "local": "###"
+    },
+    {
+      "titulo": "###",
+      "inicio": "19:30",
+      "extra":  {
+        "ministrante": "###"
+      },
+      "local": "#####"
+    }
+  ],
+  "Quarta-Feira 7 de Junho": [
+    {
+      "tipo": "tipo1",
+      "titulo": "####",
+      "inicio": "08:00",
+      "final": "11:30",
+      "extra":  {
+        "img": "assets/img/####.png",
+        "empresa": "####",
+        "info": "######",
+        "vagas": "[0-9]"
+      },
+      "local": "#####"
+    },
+    {
+      "tipo": "tipo2",
+      "titulo": "#####",
+      "inicio": "14:00",
+      "final": "18:00",
+      "extra":  {
+        "img" : "assets/img/####",
+        "ministrante": "####",
+        "carga":"###",
+        "vagas": "####"
+      },
+      "local": "######"
+    }
+  ]
+}

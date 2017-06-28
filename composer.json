@@ -1,0 +1,10 @@
+{
+    "require": {
+        "twig/twig": "^2.0",
+        "phroute/phroute": "^2.1",
+        "symfony/translation": "^3.1",
+        "symfony/yaml": "^3.1",
+        "phpmailer/phpmailer": "^5.2",
+        "league/oauth2-google": "^2.0"
+    }
+}
