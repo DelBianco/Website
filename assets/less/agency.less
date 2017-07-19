@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 40px;
 }
 
-.btn-xl-green {
-    .button-variant(white; @theme-green; @theme-green);
+.btn-xl-success {
+    .button-variant(white; @theme-success; @theme-success);
     .heading-font;
     font-weight: 700;
     border-radius: 3px;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 40px;
 }
 
-.btn-xl-red {
+.btn-xl-danger {
     .button-variant(white; @theme-danger; @theme-danger);
     .heading-font;
     font-weight: 700;
@@ -68,9 +68,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     padding: 20px 40px;
 }
-
-.btn-xl-yellow {
-    .button-variant(white; @theme-yellow; @theme-yellow);
+.btn-xl-info {
+    .button-variant(white; @theme-info; @theme-info);
+    .heading-font;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+.btn-xl-warning {
+    .button-variant(white; @theme-waring; @theme-waring);
     .heading-font;
     font-weight: 700;
     border-radius: 3px;
@@ -89,9 +96,8 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color: #aaa;
+    color: @theme-waring;
 }
-
 .navbar-toggle{
     border:none;
 }
@@ -165,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
             }
         }
         &.navbar-shrink {
-            background-color: @theme-primary-dark;
+            background-color: darken(@theme-primary,10%);
             background-repeat: repeat-x;
             padding: 0;
             .navbar-brand {
@@ -337,7 +343,7 @@ section {
     .portfolio-item:nth-child(odd) {
         .portfolio-link {
             .portfolio-hover {
-                background: fade(@theme-secondary, 90%);
+                background: fade(@theme-waring, 90%);
             }
         }
     }
@@ -568,9 +574,8 @@ aside.clients {
 }
 
 // Contact Section
-
 section#contact {
-    background-color: @theme-secondary;
+    background-color: @theme-info;
 }
 
 // Footer
@@ -708,12 +713,12 @@ ul.social-buttons {
 
 ::-moz-selection {
     text-shadow: none;
-    background: @theme-secondary;
+    background: @theme-waring;
 }
 
 ::selection {
     text-shadow: none;
-    background: @theme-secondary;
+    background: @theme-waring;
 }
 
 img::selection {
@@ -725,7 +730,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @theme-secondary;
+    webkit-tap-highlight-color: @theme-waring;
 }
 .header-logo{
     top: 20vh;
@@ -753,24 +758,17 @@ body {
     max-height: 30px;
 }
 
-.text-green{
-    color: @theme-green;
+.text-primary{
+    color: @theme-primary;
 }
-.text-red{
+.text-warning{
+    color: @theme-waring;
+}
+.text-info{
+    color: @theme-info;
+}
+.text-danger{
     color: @theme-danger;
-}
-.text-blue{
-    color: @theme-primary;
-}
-
-.counter{
-    color: @theme-primary;
-    .heading-font();
-}
-.cearo{
-    min-height:80vh;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 .img-sponsor-sm{
     height:80px;
@@ -806,48 +804,6 @@ p {
 }
 .img-people{
     border-radius: 0px;
-}
-
-.bg-video{
-    background-color: #000000;
-}
-
-.news-header{
-    color: @theme-dark-green;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-.brand-logo{
-    max-height:90px;
-}
-
-.main-logo-shrink{
-    max-height: 45px;
-}
-.video {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
-.main{
-    position: absolute;
-    top: 100vh;
-    background-color: #fff;
-    padding: 0px;
-}
-
-.prog-img{
-    padding: 0px;
-}
-
-
-.vertical-align{
-    display: flex;
-    align-items: center;
-}
-.img-full{
-    width: 100%;
-    height: auto;
 }
 
 .bg-local{
@@ -926,7 +882,7 @@ textarea.form-control{
 .alert-success {
     color: #ffffff;
     background-color: @theme-primary;
-    border-color: @theme-primary-dark;
+    border-color: darken(@theme-primary,10%);
 }
 
 .panel-cearo{
@@ -942,17 +898,11 @@ textarea.form-control{
 
 .list-group-cearo{
     .list-group-item{
-        background-color: @theme-primary-dark;
+        background-color: darken(@theme-primary,10%);
         color: #fff;
     }
 
 }
 .text-secondary{
-    color: @theme-secondary;
-}
-
-#patrocinadores  .img-responsive {
-    max-height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    color: @theme-waring;
 }
